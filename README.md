@@ -5,16 +5,16 @@ Quick and dirty utilities for filtering Bible content
 - right now in czech only, but more will follow
 - motivation : cli tool to filter bible content
 
-##INSTALLATION STEPS
+## INSTALLATION STEPS
 - copy content of bin folder (not the folder) into ~/bin
 - perform chmod +x ~/bin/bref
 - open bin/books/Ekumenicky.txt is placeholder. Open it and download content from internet and replace placeholder with real content, keep file name.
 
-##USAGE
+## USAGE
 
 From terminal run: bref <BOOK> <CHAPTER> <FROM> <TO>
 
-###example:
+### example:
 
    bref Jr 1 3 4
    
