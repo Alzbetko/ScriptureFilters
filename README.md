@@ -20,6 +20,8 @@ From terminal run: bref BOOK CHAPTER FROM TO
 ### example:
 
    bref Jr 1 3 5
+
+### output:
    
 3 Stávalo se též za dnů judského krále Jojakíma, syna Jošijášova, až do konce jedenáctého roku vlády
 judského krále Sidkijáše, syna Jóšijášova, až do přestěhování Jeruzaléma v pátém měsíci toho roku.
