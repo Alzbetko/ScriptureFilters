@@ -1,6 +1,6 @@
-$0 ~ /[A-Z1-9][a-zA-Z]+[ ][0-9]+[:]([0-9]+(f+|[-][0-9]+|))([,]([0-9]+(f+|[-][0-9]+|)))*/ { 
+$0 ~ /[A-Z1-9][a-zA-Z]*[ ][0-9]+[:]([0-9]+(f+|[-][0-9]+|))([,]([0-9]+(f+|[-][0-9]+|)))*/ { 
 
-  match($0,/[A-Z1-9][a-zA-Z]+/,book)
+  match($0,/[A-Z1-9][a-zA-Z]*/,book)
   match($0,/[ ][0-9]+[:]/,xchapter)
   chapter = substr(xchapter[0], 2, length(xchapter[0]) - 2)
   match($0,/[:].*/,verselist)
@@ -16,6 +16,8 @@ $0 ~ /[A-Z1-9][a-zA-Z]+[ ][0-9]+[:]([0-9]+(f+|[-][0-9]+|))([,]([0-9]+(f+|[-][0-9
   for(verse_key in verse_list) {
   
 	  verse = verse_list[verse_key]
+  
+	  print verse
   
 	  if (verse ~ /^[0-9]+[-][0-9]+$/) {
 		match(verse,/^[0-9]+/, xvfrom)
