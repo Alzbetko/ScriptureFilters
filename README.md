@@ -35,8 +35,11 @@ dal jsem tě pronárodům za proroka."
 cat test.txt
 
 Gn 32:30f
+
 Gn 1:1-1
+
 Gn 2:1-1
+
 
 blist test.txt
 
