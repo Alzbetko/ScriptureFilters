@@ -35,7 +35,6 @@ dal jsem tě pronárodům za proroka."
 cat test.txt
 
 Gn 32:30f
-J 6:35ff
 Gn 1:1-1
 Gn 2:1-1
 
