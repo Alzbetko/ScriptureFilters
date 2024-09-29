@@ -10,17 +10,18 @@ $0 ~ /[A-Z1-9][a-zA-Z]+[ ][0-9]+[:]([0-9]+(f+|[-][0-9]+|))([,]([0-9]+(f+|[-][0-9
   pchapter = chapter
   pversefrom = ""
   pverseto = ""
-  
+
   split(verses, verse_list, ",")
+  
   for(verse_key in verse_list) {
   
 	  verse = verse_list[verse_key]
   
 	  if (verse ~ /^[0-9]+[-][0-9]+$/) {
-		match(verse,/^[0-9]+/, vfrom)
-		match(verse,/[0-9]+$/, vto)
-		pversefrom = vfrom[0]
-		pverseto = vto[0]
+		match(verse,/^[0-9]+/, xvfrom)
+		match(verse,/[0-9]+$/, xvto)
+		pversefrom = xvfrom[0]
+		pverseto = xvto[0]
 	  } else if  (verse ~ /^[0-9]+f$/) {
 		vfrom = substr(verse, 1, length(verse)-1)
 		pversefrom = vfrom
@@ -35,6 +36,7 @@ $0 ~ /[A-Z1-9][a-zA-Z]+[ ][0-9]+[:]([0-9]+(f+|[-][0-9]+|))([,]([0-9]+(f+|[-][0-9
 	  }
 	  
 	  print "echo \"------->>>" pbook " " pchapter ":" verse "<<<---------\""
-	  print "bref " pbook " " pchapter " " pversefrom " " pverseto
+	  print "cmtf-bref.bash " pbook " " pchapter " " pversefrom " " pverseto
   }
 }
+
