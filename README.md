@@ -15,7 +15,7 @@ Quick and dirty utilities for filtering Bible content
 
 ## USAGE
 
-From terminal run: bref <BOOK> <CHAPTER> <FROM> <TO>
+From terminal run: bref BOOK CHAPTER FROM TO
 
 ### example:
 
