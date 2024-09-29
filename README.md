@@ -4,6 +4,8 @@ AWK filters for Bible
 Quick and dirty utilities for filtering Bible content
 - right now in czech only, but more will follow
 - motivation : cli tool to filter bible content
+- content range e.g. Gn 10 1ff will follow
+- content ranges from file will follow
 
 ## INSTALLATION STEPS
 - copy content of bin folder (not the folder) into ~/bin
