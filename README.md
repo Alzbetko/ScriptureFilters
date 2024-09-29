@@ -41,14 +41,21 @@ Gn 2:1-1
 
 blist test.txt
 
-### output :
+### output 🇨🇿:
 
 ------->>>Gn 32:30f<<<---------
+
 30 A Jákob ho žádal: "Pověz mi přece své jméno!" Ale on odvětil: "Proč se ptáš na mé jméno?" A
 požehnal mu tam.
+
 31 I pojmenoval Jákob to místo Peníel (to je Tvář Boží), neboť řekl: "Viděl jsem Boha tváří v tvář a byl
 mi zachován život."
+
 ------->>>Gn 1:1-1<<<---------
+
 1 Na počátku stvořil Bůh nebe a zemi.
+
 ------->>>Gn 2:1-1<<<---------
+
 1 Tak byla dokončena nebesa i země se všemi svými zástupy.
+
