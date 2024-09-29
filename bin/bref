@@ -1,0 +1,1 @@
+cat ~/bin/books/Ekumenicky.txt | awk -v BOOK="$1" -v CHAPTER="$2" -v FROM_VERSE="$3" -v TO_VERSE="$4" -i ~/bin/awklib/books.awk -f ~/bin/bref.awk
