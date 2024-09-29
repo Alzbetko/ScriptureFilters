@@ -8,7 +8,8 @@ Quick and dirty utilities for filtering Bible content
 ## INSTALLATION STEPS
 - copy content of bin folder (not the folder) into ~/bin
 - perform chmod +x ~/bin/bref
-- open bin/books/Ekumenicky.txt is placeholder. Open it and download content from internet and replace placeholder with real content, keep file name.
+- replace bin/books/Ekumenicky.txt The file is just placeholder. Open it and read content.
+  Download content from internet and replace placeholder with downloaded file, keep file name.
 
 ## USAGE
 
