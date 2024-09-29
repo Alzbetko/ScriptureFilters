@@ -2,7 +2,7 @@
 AWK filters for Bible
 
 Quick and dirty utilities for filtering Bible content
-- right now in czech only, but more will follow
+- right now 🇨🇿 only, but more will follow
 - motivation : cli tool to filter bible content
 - content range e.g. Gn 10 1ff will follow
 - content ranges from file will follow
@@ -21,7 +21,7 @@ From terminal run: bref BOOK CHAPTER FROM TO
 
    bref Jr 1 3 5
 
-### output:
+### output 🇨🇿:
    
 3 Stávalo se též za dnů judského krále Jojakíma, syna Jošijášova, až do konce jedenáctého roku vlády
 judského krále Sidkijáše, syna Jóšijášova, až do přestěhování Jeruzaléma v pátém měsíci toho roku.
